@@ -28,3 +28,6 @@ proguard/
 
 # Bit t sync
 .sync
+
+#Android studio
+.idea
