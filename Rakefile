@@ -11,11 +11,11 @@ end
 namespace :ci do
   desc 'run the unit tests'
   task :unit do
-    run_command('echo "run unit tests"')
+    run_command('./gradlew lint')
   end
   desc 'run the integration tests'
   task :integration do
-    run_command('echo "run integration tests"')
+    run_command('./gradlew test')
   end
   desc 'build the app'
   task :build do
@@ -23,5 +23,5 @@ namespace :ci do
   end
 end
 
-task default: ['ci:build', 'ci:unit', 'ci:integration']
+task default: ['ci:unit', 'ci:integration', 'ci:build' ]
 
