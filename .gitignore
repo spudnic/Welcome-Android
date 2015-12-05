@@ -31,3 +31,5 @@ proguard/
 
 #Android studio
 .idea
+
+build/
