@@ -31,5 +31,6 @@ proguard/
 
 #Android studio
 .idea
-
+Welcome-Android.iml
+app/app.iml
 build/
