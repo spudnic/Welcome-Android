@@ -23,6 +23,5 @@ namespace :ci do
   end
 end
 
-#task default: ['ci:build', 'ci:unit', 'ci:integration']
-task default: [ 'ci:unit', 'ci:integration']
+task default: ['ci:build', 'ci:unit', 'ci:integration']
 
