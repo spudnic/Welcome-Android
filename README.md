@@ -2,4 +2,4 @@
 # Welcome-Android
 An Android application with full unit, integration, testing in travis ci
 
-[http://spudnic.github.io/Welcome-Android/](Docs)
+[Docs](http://spudnic.github.io/Welcome-Android/)
