@@ -19,7 +19,7 @@ namespace :ci do
   end
   desc 'build the app'
   task :build do
-    run_command('./gradlew clean build')
+    run_command('./gradlew build')
   end
 end
 
